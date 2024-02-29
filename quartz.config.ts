@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Vik's Notes",
+    pageTitle: "Vik's Notes",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -16,30 +16,30 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Roboto Slab",
+        body: "Inter",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
+          light: "#dce0e8",
+          lightgray: "#eff1f5",
+          gray: "#bcc0cc",
+          darkgray: "#4c4f69",
+          dark: "#5c5f77",
+          secondary: "#7287fd",
+          tertiary: "#1e66f5",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#181926",
+          lightgray: "#24273a",
+          gray: "#494d64",
+          darkgray: "#cad3f5",
+          dark: "#b8c0e0",
+          secondary: "#b7bdf8",
+          tertiary: "#8aadf4",
+          highlight: "rgba(114, 135, 253, 0.15)",
         },
       },
     },
@@ -56,8 +56,8 @@ const config: QuartzConfig = {
       Plugin.SyntaxHighlighting({
         // uses themes bundled with Shikiji, see https://shikiji.netlify.app/themes
         theme: {
-          light: "github-light",
-          dark: "github-dark",
+          light: "catppuccin-latte",
+          dark: "catppuccin-macchiato",
         },
         // set this to 'true' to use the background color of the Shikiji theme
         // if set to 'false', will use Quartz theme colors for background
